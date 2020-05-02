@@ -78,8 +78,6 @@ PushButton button1(BUT_1);
 PushButton button2(BUT_2);
 
 /**
- * Super Mario Theme
- *  source: https://wiki.mikrotik.com/wiki/Super_Mario_Theme
  * Each triplet contains: frequency, lenght, delay after the note.
  */
 unsigned long musicScore[80][3] = {
