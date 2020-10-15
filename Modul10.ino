@@ -387,8 +387,8 @@ void PushButton::Update()
   }
 }
 
-
-void PushButton::SetOnButtonDownEvent(void (*event)(void))
-{
-  onButtonDownEvent = event;
-}
+// should be uncommented
+// void PushButton::SetOnButtonDownEvent(void (*event)(void))
+// {
+//   onButtonDownEvent = event;
+// }
